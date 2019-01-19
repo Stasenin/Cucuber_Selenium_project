@@ -28,8 +28,6 @@ public class MyStepdefs {
 
     @And("^Entered following for credentials$")
     public void enteredFollowingForCredentials(DataTable table) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        //В КАЖДОМ ИЗ МЕТОДОВ гивен вен или зен -  делать все педж обжектами  !!!
         System.out.println("Step - 3 @And");
         List<List<String>> data = table.raw();
 
